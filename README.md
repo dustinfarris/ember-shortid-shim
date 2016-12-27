@@ -1,5 +1,7 @@
 # ember-shortid-shim
 
+[![CircleCI](https://circleci.com/gh/dustinfarris/ember-shortid-shim.svg?style=svg)](https://circleci.com/gh/dustinfarris/ember-shortid-shim)
+
 Use [shortid](https://github.com/dylang/shortid) in your Ember project.
 
 
