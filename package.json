@@ -13,6 +13,8 @@
   },
   "repository": "https://github.com/dustinfarris/ember-shortid-shim",
   "scripts": {
+    "postversion": "git push && git push --tags && echo 'Ready to publish!'",
+    "preversion": "git checkout master && git pull && yarn install && yarn test",
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
