@@ -1,26 +1,45 @@
 # ember-shortid-shim
 
-This README outlines the details of collaborating on this Ember addon.
+Use [shortid](https://github.com/dylang/shortid) in your Ember project.
+
 
 ## Installation
+
+```
+ember install ember-shortid-shim
+```
+
+
+## Usage
+
+```javascript
+import shortid from 'shortid';
+
+shortid.generate();
+```
+
+
+## Development
+
+### Installation
 
 * `git clone <repository-url>` this repository
 * `cd ember-shortid-shim`
 * `npm install`
 * `bower install`
 
-## Running
+### Running
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-## Running Tests
+### Running Tests
 
 * `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
-## Building
+### Building
 
 * `ember build`
 
